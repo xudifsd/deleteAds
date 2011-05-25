@@ -1,3 +1,4 @@
 jQuery.noConflict();
-alert(jQuery("div[id^='ad']"));
-alert('Hello world!');
+jQuery("div[id^='ad']").each(function(i){
+  this.hide();
+});
