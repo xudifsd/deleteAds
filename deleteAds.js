@@ -1,1 +1,3 @@
-alert("Hello world!");
+jQuery.noConflict();
+alert(jQuery("div[id^='ad']"));
+alert('Hello world!');
