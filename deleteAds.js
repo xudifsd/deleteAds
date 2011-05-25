@@ -1,1 +1,1 @@
-alert($('div#bottombar'));
+alert("Hello world!");
