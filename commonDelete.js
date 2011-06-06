@@ -2,7 +2,7 @@ jQuery.noConflict();
 
 jQuery(document).ready(function(){
 	//close button prototype
-	var jQueryhideButton = jQuery('<button/>').wrapInner('X').attr({
+	var jQuery.hideButton = jQuery('<button/>').wrapInner('X').attr({
 		'class' : 'hideButton',
 		'position' : 'absolute',
 		'top' : '0px',
