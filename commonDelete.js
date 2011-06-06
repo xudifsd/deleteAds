@@ -25,5 +25,5 @@ jQuery(document).ready(function(){
 	jQuery('button.hideButton').click(function(){
 		jQuery(this).parent().hide();
 	});
-	alert('deleteAds added successfully!');
+	alert('commonDelete.js added successfully!');
 });
