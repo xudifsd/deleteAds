@@ -10,7 +10,7 @@ jQuery(document).ready(function(){
 		}).hide();
 
 	//add button
-	jQuery('div').each(function(){
+	jQuery('div').not(jQuery('div').has('div')).each(function(){
 		jQuery(this).append(hideButton.clone());
 	});
 
