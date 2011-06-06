@@ -2,7 +2,7 @@ jQuery.noConflict();
 
 jQuery(document).ready(function(){
 	//close button prototype
-	var jQuery.hideButton = jQuery('<button/>').wrapInner('X').attr({
+	var hideButton = jQuery('<button/>').wrapInner('X').attr({
 		'class' : 'hideButton',
 		'position' : 'absolute',
 		'top' : '0px',
@@ -11,7 +11,7 @@ jQuery(document).ready(function(){
 
 	//add button
 	jQuery('div').each(function(){
-		jQuery(this).append(jQueryhideButton.clone());
+		jQuery(this).append(hideButton.clone());
 	});
 
 	//hide and show button on div
