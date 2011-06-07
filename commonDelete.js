@@ -7,7 +7,7 @@ jQuery(document).ready(function(){
 		'position' : 'absolute',
 		'top' : '0px',
 		'right' : '0px',
-		}).hide();
+		});
 
 	//add button
 	jQuery('div').not(jQuery('div').has('div')).each(function(){
@@ -23,7 +23,7 @@ jQuery(document).ready(function(){
 
 	//click on button event
 	jQuery('button.hideButton').click(function(){
-		jQuery(this).parent().hide();
+		jQuery(this).parent().remove();
 	});
 	alert('commonDelete.js added successfully!');
 });
